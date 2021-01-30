@@ -10,6 +10,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors":true,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
@@ -34,7 +35,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/plugins/rem.js", "src/pages/Hotel/addHotel/addHotel.ts"  ],
   "exclude": [
     "node_modules"
   ]
